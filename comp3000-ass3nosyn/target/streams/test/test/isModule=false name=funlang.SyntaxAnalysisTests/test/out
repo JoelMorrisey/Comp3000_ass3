@@ -1,0 +1,25 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mSyntaxAnalysisTests in library/src/test/scala/funlang:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an identifier of one letter produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an identifier as an identifier produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an identifier containing digits and underscores produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an integer as an identifier gives an error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a non-identifier as an identifier gives an error (digit)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a non-identifier as an identifier gives an error (underscore)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a keyword as an identifier gives an error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a keyword prefix as an identifier produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an integer of one digit as an integer produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an integer as an integer produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a non-integer as an integer gives an error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an equal expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a less than expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an addition expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a subtraction expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a multiplication expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a division expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an integer expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a true expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a false expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an identifier expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a parenthesized expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an application expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an if expression produces the correct tree[0m[0m

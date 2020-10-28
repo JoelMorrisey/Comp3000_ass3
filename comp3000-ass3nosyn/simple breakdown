@@ -1,0 +1,28 @@
+IClosure ( 								// Closure "x => (inc => inc (x)) (a => a + 1)"
+	"x", 								
+	List ( 								
+		IClosure ( 						// Closure "inc => inc (x)"
+			"inc", 						
+			List (						
+				IVar ("inc"),			
+				IVar ("x"),				
+				ICall (),				// inc (x)
+				IPopEnv ()				
+			)							
+		),								
+	    IClosure (         				// Closure "a => a + 1"
+	    	"a",						
+	    	List (						
+	    		IVar ("a"),				
+	   			IInt (1),				
+	     		IAdd (),				
+	        	IPopEnv ()				
+	       	)							
+	    ),								
+	    ICall (),             			// (inc => inc (x)) (a => a + 1)
+	    IPopEnv ()						
+	)									
+),										
+IInt(100),                				// Push 100
+ICall(),                 				// (x => (inc => inc (x)) (a => a + 1)) (100)
+IPrint()         						// Print the value of the expression

@@ -1,0 +1,73 @@
+compile
+test
+compile
+test
+compile
+test
+exit
+test
+run test/function.fun
+compile
+run test/function.fun
+test
+compile
+test
+compile
+test
+run test/function.fun
+compile
+run test/function.fun
+compile
+run test/function.fun
+compile
+run test/function.fun
+test
+run test/function.fun
+test
+compile
+test
+clean
+test
+clean
+test
+exit
+clean
+exit
+test
+testOnly /test
+testOnly /test/scala/ExecTests.scala
+testOnly ExecTests.scala
+testOnly ./test/scala/ExecTests.scala
+test
+testonnly library/src/test/scala/funlang
+testonnly library/src/test/scala/funlang;
+testonly library/src/test/scala/funlang
+testOnly library/src/test/scala/funlang
+test:testOnly *ExecTest
+test:testOnly ExecTest
+test:testOnly ExecTest.scala
+test:testOnly *ExecTest.scala
+test:testOnly *scala.ExecTest.scala
+testOnly funlang.ExecTests
+compile
+test
+testOnly funlang.ExecTests
+compile
+compil
+compile
+testOnly funlang.ExecTests
+test
+testOnly funlang.ExecTests
+run test/myCustomFun.fn
+run test/myCustomFun.fun
+sbt
+run test/myCustomFun.fun
+run /test/scala/myCustomFun.fun
+run test/scala/myCustomFun.fun
+run test/scala/
+run test/scala/myCustomFun.fun
+testOnly funlang.ExecTests
+run test/scala/myCustomFun.fun
+testOnly funlang.ExecTests
+run test/scala/myCustomFun.fun
+testOnly funlang.ExecTests
