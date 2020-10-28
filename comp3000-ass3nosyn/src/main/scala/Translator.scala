@@ -138,18 +138,9 @@ object Translator {
                     }
                 }
 
-                case BlockExp(Vector(), exp) => {
-                    genall ( translateExpression(exp) )
-                }
-
-
-                // defns match {
-                //     case d if a.length == 1 => genMkClosure(d[0], exp)
-                //     case h +: t => genMkClosure(d[0], exp)
-                //     case _ => //how empty?????
-                // }
-                // genMkClosure()
-                
+            case BlockExp(Vector(), exp) => {
+                genall ( translateExpression(exp) )
+            }
             
             case _ =>
                 // FIXME: Add cases for other kinds of expression...
