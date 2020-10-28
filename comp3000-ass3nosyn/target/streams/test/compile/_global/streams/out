@@ -1,4 +1,16 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/joelmorrissey/Downloads/comp3000-ass3nosyn/src/test/scala/ExecTests.scala:170:5: '}' expected but eof found.[0m
-[0m[[0m[31merror[0m] [0m[0m// }[0m
-[0m[[0m[31merror[0m] [0m[0m    ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/joelmorrissey/Downloads/Comp3000_ass3/comp3000-ass3nosyn/src/test/scala/ExecTests.scala:168:48: not found: value PlusExp[0m
+[0m[[0m[31merror[0m] [0m[0m        println(Translator.translateExpression(PlusExp(IdnUse("t"),AppExp(IdnUse("inc"),IntExp(5)))))[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/joelmorrissey/Downloads/Comp3000_ass3/comp3000-ass3nosyn/src/test/scala/ExecTests.scala:168:56: not found: value IdnUse[0m
+[0m[[0m[31merror[0m] [0m[0m        println(Translator.translateExpression(PlusExp(IdnUse("t"),AppExp(IdnUse("inc"),IntExp(5)))))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/joelmorrissey/Downloads/Comp3000_ass3/comp3000-ass3nosyn/src/test/scala/ExecTests.scala:168:68: not found: value AppExp[0m
+[0m[[0m[31merror[0m] [0m[0m        println(Translator.translateExpression(PlusExp(IdnUse("t"),AppExp(IdnUse("inc"),IntExp(5)))))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/joelmorrissey/Downloads/Comp3000_ass3/comp3000-ass3nosyn/src/test/scala/ExecTests.scala:168:75: not found: value IdnUse[0m
+[0m[[0m[31merror[0m] [0m[0m        println(Translator.translateExpression(PlusExp(IdnUse("t"),AppExp(IdnUse("inc"),IntExp(5)))))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/joelmorrissey/Downloads/Comp3000_ass3/comp3000-ass3nosyn/src/test/scala/ExecTests.scala:168:89: not found: value IntExp[0m
+[0m[[0m[31merror[0m] [0m[0m        println(Translator.translateExpression(PlusExp(IdnUse("t"),AppExp(IdnUse("inc"),IntExp(5)))))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m

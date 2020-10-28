@@ -1,6 +1,7 @@
 #Successful Tests
-#Wed Oct 28 17:38:37 AEDT 2020
-funlang.SemanticTests=1603855206534
-funlang.TypeTests=1603855205966
-funlang.SyntaxAnalysisTests=1603855206517
-funlang.NameTests=1603855206299
+#Wed Oct 28 19:03:34 AEDT 2020
+funlang.SemanticTests=1603872211500
+funlang.TypeTests=1603872211025
+funlang.ExecTests=1603872214196
+funlang.SyntaxAnalysisTests=1603872211489
+funlang.NameTests=1603872211344

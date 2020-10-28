@@ -12,5 +12,6 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- an simple false equals bool expression evaluates to the correct result[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- an true if expression evaluates to the correct result[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- an false if expression evaluates to the correct result[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- an block expression evaluates to the correct result *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  value expected for print (ExecTests.scala:43)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example block expression given evaluates correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- an block expression with only vals evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- an block expression with a mixture of functions and vals evaluates correct result[0m[0m

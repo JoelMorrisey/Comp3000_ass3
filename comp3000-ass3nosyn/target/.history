@@ -71,3 +71,13 @@ run test/scala/myCustomFun.fun
 testOnly funlang.ExecTests
 run test/scala/myCustomFun.fun
 testOnly funlang.ExecTests
+clear
+clean
+testOnly funlang.ExecTests
+test-only *ExecTests
+test-only *ExecTests;
+testOnly funlang.ExecTests
+test
+testOnly funlang.ExecTests
+test
+testOnly funlang.ExecTests

@@ -1,3 +1,17 @@
 [0m[[0m[0minfo[0m] [0m[0m[32mExecTests in library/src/test/scala/funlang:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- an block expression evaluates to the correct result *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  value expected for print (ExecTests.scala:43)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- an integer expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- an addition expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- an subtraction expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- an multiply expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- an divide expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- an mixed expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- an complex expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- an simple true bool expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- an simple false bool expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- an simple true equals bool expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- an simple false equals bool expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- an true if expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- an false if expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- example block expression given evaluates correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- an block expression with only vals evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- an block expression with a mixture of functions and vals evaluates correct result[0m[0m

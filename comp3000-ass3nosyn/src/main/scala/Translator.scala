@@ -119,33 +119,28 @@ object Translator {
                 gen(ICall())
 
             case BlockExp(head +: defns, body) =>
-                println("head:\t\t\t\t" + head)
-                println("...defns...:\t\t\t\t" + defns)
-                println("final exp:\t\t\t" + body)
-                println("")
+                //match all the different possible block heads
                 head match {
                     case Val(IdnDef(idn), exp) =>
                     {
-                        // println("top most definition name:\t" + i)
-                        // println("top most definition exp:\t" + e)
                         genMkClosure(idn, BlockExp(defns, body))
                         genall ( translateExpression(exp) )
                         gen (ICall())
                     }
                     case FunGroup(Fun(IdnDef(idn), Lam(Arg(IdnDef(x),_), exp)) +: fundefns) => {
-                        println("=======" + fundefns);
                         genMkClosure(idn, BlockExp(FunGroup(fundefns) +: defns, body))
                         genMkClosure(x, exp)
                         gen (ICall())
-                        // gen (IInt (10))
                     }
                     case FunGroup(Vector()) => {
-                        translateExpression(BlockExp(defns, body))
+                        println(BlockExp(defns, body));
+                        genall ( translateExpression(BlockExp(defns, body)) )
                     }
                 }
 
-            case BlockExp(Vector(), exp) =>
+                case BlockExp(Vector(), exp) => {
                     genall ( translateExpression(exp) )
+                }
 
 
                 // defns match {

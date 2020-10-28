@@ -1,91 +1,41 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuite hostname="Joels-MBP-3" name="funlang.ExecTests" tests="1" errors="0" failures="1" skipped="0" time="0.164" timestamp="2020-10-28T17:38:36">
+<testsuite hostname="Joels-MBP-3" name="funlang.ExecTests" tests="16" errors="0" failures="0" skipped="0" time="0.238" timestamp="2020-10-28T19:03:33">
                      <properties>
-      <property name="jline.esc.timeout" value="0"/><property name="jna.platform.library.path" value="/usr/lib:/usr/lib"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib"/><property name="java.vm.version" value="25.262-b10"/><property name="user.country.format" value="AU"/><property name="gopherProxySet" value="false"/><property name="java.vm.vendor" value="AdoptOpenJDK"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=":"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/Users/joelmorrissey/Downloads/comp3000-ass3nosyn"/><property name="java.runtime.version" value="1.8.0_262-b10"/><property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/><property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/endorsed"/><property name="os.arch" value="x86_64"/><property name="java.io.tmpdir" value="/var/folders/7z/hlvsvdgj01v2y5y_5thdsvrm0000gn/T/"/><property name="line.separator" value="
-"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="log4j.ignoreTCL" value="true"/><property name="os.name" value="Mac OS X"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/var/folders/7z/hlvsvdgj01v2y5y_5thdsvrm0000gn/T/jna-1750064559/jna1381602448199156755.tmp"/><property name="java.library.path" value="/Users/joelmorrissey/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.14.6"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="swoval.tmpdir" value="/Users/joelmorrissey/.sbt/1.0"/><property name="user.home" value="/Users/joelmorrissey"/><property name="user.timezone" value="Australia/Sydney"/><property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="/usr/local/Cellar/sbt/1.3.3/libexec/bin/sbt-launch.jar"/><property name="user.name" value="joelmorrissey"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="/usr/local/Cellar/sbt/1.3.3/libexec/bin/sbt-launch.jar"/><property name="java.home" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_262"/><property name="java.ext.dirs" value="/Users/joelmorrissey/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/><property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/classes"/><property name="java.vendor" value="AdoptOpenJDK"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="sun.cpu.endian" value="little"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="sun.cpu.isalist" value=""/>
+      <property name="jline.esc.timeout" value="0"/><property name="jna.platform.library.path" value="/usr/lib:/usr/lib"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib"/><property name="java.vm.version" value="25.262-b10"/><property name="user.country.format" value="AU"/><property name="gopherProxySet" value="false"/><property name="java.vm.vendor" value="AdoptOpenJDK"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=":"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/Users/joelmorrissey/Downloads/Comp3000_ass3/comp3000-ass3nosyn"/><property name="java.runtime.version" value="1.8.0_262-b10"/><property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/><property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/endorsed"/><property name="os.arch" value="x86_64"/><property name="java.io.tmpdir" value="/var/folders/7z/hlvsvdgj01v2y5y_5thdsvrm0000gn/T/"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="log4j.ignoreTCL" value="true"/><property name="os.name" value="Mac OS X"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/var/folders/7z/hlvsvdgj01v2y5y_5thdsvrm0000gn/T/jna-1750064559/jna1247203796666182466.tmp"/><property name="java.library.path" value="/Users/joelmorrissey/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.14.6"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="swoval.tmpdir" value="/Users/joelmorrissey/.sbt/1.0"/><property name="user.home" value="/Users/joelmorrissey"/><property name="user.timezone" value="Australia/Sydney"/><property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="/usr/local/Cellar/sbt/1.3.3/libexec/bin/sbt-launch.jar"/><property name="user.name" value="joelmorrissey"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="/usr/local/Cellar/sbt/1.3.3/libexec/bin/sbt-launch.jar"/><property name="java.home" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_262"/><property name="java.ext.dirs" value="/Users/joelmorrissey/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/><property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/classes"/><property name="java.vendor" value="AdoptOpenJDK"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="sun.cpu.endian" value="little"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="sun.cpu.isalist" value=""/>
     </properties>
-                     <testcase classname="funlang.ExecTests" name="an block expression evaluates to the correct result" time="0.164">
-                                                 <failure message="value expected for print" type="org.scalatest.exceptions.TestFailedException">org.scalatest.exceptions.TestFailedException: value expected for print
-	at org.scalatest.Assertions.newAssertionFailedException(Assertions.scala:528)
-	at org.scalatest.Assertions.newAssertionFailedException$(Assertions.scala:527)
-	at funlang.SemanticTests.newAssertionFailedException(SemanticTests.scala:16)
-	at org.scalatest.Assertions.fail(Assertions.scala:1089)
-	at org.scalatest.Assertions.fail$(Assertions.scala:1085)
-	at funlang.SemanticTests.fail(SemanticTests.scala:16)
-	at funlang.ExecTests.execTest(ExecTests.scala:43)
-	at funlang.ExecTests.$anonfun$new$1(ExecTests.scala:168)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
-	at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
-	at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)
-	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
-	at org.scalatest.Transformer.apply(Transformer.scala:22)
-	at org.scalatest.Transformer.apply(Transformer.scala:20)
-	at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)
-	at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)
-	at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)
-	at funlang.SemanticTests.withFixture(SemanticTests.scala:16)
-	at org.scalatest.FunSuiteLike.invokeWithFixture$1(FunSuiteLike.scala:184)
-	at org.scalatest.FunSuiteLike.$anonfun$runTest$1(FunSuiteLike.scala:196)
-	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:289)
-	at org.scalatest.FunSuiteLike.runTest(FunSuiteLike.scala:196)
-	at org.scalatest.FunSuiteLike.runTest$(FunSuiteLike.scala:178)
-	at funlang.SemanticTests.org$scalatest$BeforeAndAfter$$super$runTest(SemanticTests.scala:16)
-	at org.scalatest.BeforeAndAfter.runTest(BeforeAndAfter.scala:203)
-	at org.scalatest.BeforeAndAfter.runTest$(BeforeAndAfter.scala:192)
-	at funlang.SemanticTests.org$scalatest$BeforeAndAfterEach$$super$runTest(SemanticTests.scala:16)
-	at org.scalatest.BeforeAndAfterEach.runTest(BeforeAndAfterEach.scala:221)
-	at org.scalatest.BeforeAndAfterEach.runTest$(BeforeAndAfterEach.scala:214)
-	at funlang.SemanticTests.runTest(SemanticTests.scala:16)
-	at org.scalatest.FunSuiteLike.$anonfun$runTests$1(FunSuiteLike.scala:229)
-	at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:396)
-	at scala.collection.immutable.List.foreach(List.scala:392)
-	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:384)
-	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:379)
-	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:461)
-	at org.scalatest.FunSuiteLike.runTests(FunSuiteLike.scala:229)
-	at org.scalatest.FunSuiteLike.runTests$(FunSuiteLike.scala:228)
-	at funlang.SemanticTests.runTests(SemanticTests.scala:16)
-	at org.scalatest.Suite.run(Suite.scala:1147)
-	at org.scalatest.Suite.run$(Suite.scala:1129)
-	at funlang.SemanticTests.org$scalatest$FunSuiteLike$$super$run(SemanticTests.scala:16)
-	at org.scalatest.FunSuiteLike.$anonfun$run$1(FunSuiteLike.scala:233)
-	at org.scalatest.SuperEngine.runImpl(Engine.scala:521)
-	at org.scalatest.FunSuiteLike.run(FunSuiteLike.scala:233)
-	at org.scalatest.FunSuiteLike.run$(FunSuiteLike.scala:232)
-	at funlang.SemanticTests.org$scalatest$BeforeAndAfter$$super$run(SemanticTests.scala:16)
-	at org.scalatest.BeforeAndAfter.run(BeforeAndAfter.scala:258)
-	at org.scalatest.BeforeAndAfter.run$(BeforeAndAfter.scala:256)
-	at funlang.SemanticTests.org$scalatest$BeforeAndAfterAll$$super$run(SemanticTests.scala:16)
-	at org.scalatest.BeforeAndAfterAll.liftedTree1$1(BeforeAndAfterAll.scala:213)
-	at org.scalatest.BeforeAndAfterAll.run(BeforeAndAfterAll.scala:210)
-	at org.scalatest.BeforeAndAfterAll.run$(BeforeAndAfterAll.scala:208)
-	at funlang.SemanticTests.run(SemanticTests.scala:16)
-	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:314)
-	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:507)
-	at sbt.TestRunner.runTest$1(TestFramework.scala:139)
-	at sbt.TestRunner.run(TestFramework.scala:154)
-	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:317)
-	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:277)
-	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:317)
-	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:317)
-	at sbt.TestFunction.apply(TestFramework.scala:329)
-	at sbt.Tests$.processRunnable$1(Tests.scala:350)
-	at sbt.Tests$.$anonfun$makeSerial$1(Tests.scala:356)
-	at sbt.std.Transform$$anon$3.$anonfun$apply$2(Transform.scala:46)
-	at sbt.std.Transform$$anon$4.work(Transform.scala:67)
-	at sbt.Execute.$anonfun$submit$2(Execute.scala:281)
-	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:19)
-	at sbt.Execute.work(Execute.scala:290)
-	at sbt.Execute.$anonfun$submit$1(Execute.scala:281)
-	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
-	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-</failure>
+                     <testcase classname="funlang.ExecTests" name="an integer expression evaluates to the correct result" time="0.116">
+                                                 
+                                               </testcase><testcase classname="funlang.ExecTests" name="an addition expression evaluates to the correct result" time="0.006">
+                                                 
+                                               </testcase><testcase classname="funlang.ExecTests" name="an subtraction expression evaluates to the correct result" time="0.007">
+                                                 
+                                               </testcase><testcase classname="funlang.ExecTests" name="an multiply expression evaluates to the correct result" time="0.004">
+                                                 
+                                               </testcase><testcase classname="funlang.ExecTests" name="an divide expression evaluates to the correct result" time="0.004">
+                                                 
+                                               </testcase><testcase classname="funlang.ExecTests" name="an mixed expression evaluates to the correct result" time="0.005">
+                                                 
+                                               </testcase><testcase classname="funlang.ExecTests" name="an complex expression evaluates to the correct result" time="0.007">
+                                                 
+                                               </testcase><testcase classname="funlang.ExecTests" name="an simple true bool expression evaluates to the correct result" time="0.003">
+                                                 
+                                               </testcase><testcase classname="funlang.ExecTests" name="an simple false bool expression evaluates to the correct result" time="0.001">
+                                                 
+                                               </testcase><testcase classname="funlang.ExecTests" name="an simple true equals bool expression evaluates to the correct result" time="0.004">
+                                                 
+                                               </testcase><testcase classname="funlang.ExecTests" name="an simple false equals bool expression evaluates to the correct result" time="0.002">
+                                                 
+                                               </testcase><testcase classname="funlang.ExecTests" name="an true if expression evaluates to the correct result" time="0.005">
+                                                 
+                                               </testcase><testcase classname="funlang.ExecTests" name="an false if expression evaluates to the correct result" time="0.005">
+                                                 
+                                               </testcase><testcase classname="funlang.ExecTests" name="example block expression given evaluates correctly" time="0.047">
+                                                 
+                                               </testcase><testcase classname="funlang.ExecTests" name="an block expression with only vals evaluates to the correct result" time="0.005">
+                                                 
+                                               </testcase><testcase classname="funlang.ExecTests" name="an block expression with a mixture of functions and vals evaluates correct result" time="0.017">
+                                                 
                                                </testcase>
                      <system-out><![CDATA[]]></system-out>
                      <system-err><![CDATA[]]></system-err>
