@@ -1,16 +1,16 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(funlang.TypeTests, org.scalatest.tools.Framework$$anon$1@3da60fc7, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(funlang.NameTests, org.scalatest.tools.Framework$$anon$1@3da60fc7, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(funlang.ExecTests, org.scalatest.tools.Framework$$anon$1@3da60fc7, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(funlang.SyntaxAnalysisTests, org.scalatest.tools.Framework$$anon$1@3da60fc7, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(funlang.SemanticTests, org.scalatest.tools.Framework$$anon$1@3da60fc7, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(funlang.TypeTests, org.scalatest.tools.Framework$$anon$1@2e6fae51, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(funlang.NameTests, org.scalatest.tools.Framework$$anon$1@2e6fae51, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(funlang.ExecTests, org.scalatest.tools.Framework$$anon$1@2e6fae51, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(funlang.SyntaxAnalysisTests, org.scalatest.tools.Framework$$anon$1@2e6fae51, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(funlang.SemanticTests, org.scalatest.tools.Framework$$anon$1@2e6fae51, false, [SuiteSelector])[0m
 [0m[[0m[0mdebug[0m] [0m[0mSummary for ScalaCheck not available.[0m
 [0m[[0m[0minfo[0m] [0m[0mScalaTest[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 869 milliseconds.[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 73[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 557 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 82[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 5, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 73, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 82, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
-[0m[[0m[0minfo[0m] [0m[0mPassed: Total 73, Failed 0, Errors 0, Passed 73[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 82, Failed 0, Errors 0, Passed 82[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	funlang.TypeTests[0m
 [0m[[0m[0mdebug[0m] [0m[0m	funlang.NameTests[0m

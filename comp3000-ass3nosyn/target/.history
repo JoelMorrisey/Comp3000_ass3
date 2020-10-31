@@ -81,3 +81,5 @@ test
 testOnly funlang.ExecTests
 test
 testOnly funlang.ExecTests
+test
+testOnly funlang.ExecTests

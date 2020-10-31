@@ -1,17 +1,26 @@
 [0m[[0m[0minfo[0m] [0m[0m[32mExecTests in library/src/test/scala/funlang:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- an integer expression evaluates to the correct result[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- an addition expression evaluates to the correct result[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- an subtraction expression evaluates to the correct result[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- an multiply expression evaluates to the correct result[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- an divide expression evaluates to the correct result[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- an mixed expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Single constant number evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Single constant number long evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a simple addition expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a simple subtraction expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a simple multiply expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a simple divide expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Chained addition expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- an mixed chained expression evaluates to the correct result[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- an complex expression evaluates to the correct result[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- an simple true bool expression evaluates to the correct result[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- an simple false bool expression evaluates to the correct result[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- an simple true equals bool expression evaluates to the correct result[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- an simple false equals bool expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- order of operations on an expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a simple true bool expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a simple false bool expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a simple true equals bool expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a simple false equals bool expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a simple true less than bool expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a simple false less than bool expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a complex bool expression evaluates to the correct result[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- an true if expression evaluates to the correct result[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- an false if expression evaluates to the correct result[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- example block expression given evaluates correctly[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- an block expression with only vals evaluates to the correct result[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- an block expression with a mixture of functions and vals evaluates correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- an block expression with a mixture of functions and vals and if statements evaluates correct result[0m[0m
