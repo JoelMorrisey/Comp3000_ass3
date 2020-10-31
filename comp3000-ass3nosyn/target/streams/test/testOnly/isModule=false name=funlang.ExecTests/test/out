@@ -15,3 +15,4 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- example block expression given evaluates correctly[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- an block expression with only vals evaluates to the correct result[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- an block expression with a mixture of functions and vals evaluates correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- an block expression with a mixture of functions and vals and if statements evaluates correct result[0m[0m

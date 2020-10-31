@@ -30,7 +30,7 @@ class ExecTests extends SemanticTests {
         assert (messages.length === 0)
 
         val instrs = Translator.translate (tree)
-        println ("\n"+instrs+"\n")
+        // println ("\n"+instrs+"\n")
 
         val emitter = new StringEmitter ()
         val machine = new SECMachine (emitter)
@@ -183,5 +183,18 @@ class ExecTests extends SemanticTests {
             }
             """.stripMargin,
             "60")
+    }
+
+    test ("an block expression with a mixture of functions and vals and if statements evaluates correct result") {
+        execTest ("""
+            |{
+                def inc (a : Int) = a + 1
+                val k = if (true) then 5 else 1
+                def abc (a : Int) = if (4<k) then 5+inc(k)+a else 3+k
+                val t = if (k<10) then 10 else k
+                abc(4) * inc (4) + t / k
+            }
+            """.stripMargin,
+            "77")
     }
 }

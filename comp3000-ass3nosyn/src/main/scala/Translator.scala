@@ -133,7 +133,6 @@ object Translator {
                         gen (ICall())
                     }
                     case FunGroup(Vector()) => {
-                        println(BlockExp(defns, body));
                         genall ( translateExpression(BlockExp(defns, body)) )
                     }
                 }
