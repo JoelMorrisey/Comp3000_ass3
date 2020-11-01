@@ -1,7 +1,7 @@
 #Successful Tests
-#Sat Oct 31 23:19:25 AEDT 2020
+#Sun Nov 01 15:37:09 AEDT 2020
 funlang.SemanticTests=1604123064065
 funlang.TypeTests=1604123063745
-funlang.ExecTests=1604146765206
+funlang.ExecTests=1604205428971
 funlang.SyntaxAnalysisTests=1604123064060
 funlang.NameTests=1604123063928
