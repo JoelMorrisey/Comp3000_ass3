@@ -142,7 +142,7 @@ object Translator {
             }
             
             case _ =>
-                // FIXME: Add cases for other kinds of expression...
+                // Do nothing
 
         }
 
